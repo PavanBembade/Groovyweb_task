@@ -10,13 +10,10 @@ import { NavLink , useNavigate} from "react-router-dom";
 const ProductDetail = () => {
   const navigate= useNavigate();
   const [cartBtn, setCartBtn] = useState("Add to Cart");
-  {
-    /* Now we need a product id which is pass from the product page. */
-  }
+  
   const { id } = useParams();
   const [product, setProduct] = useState([]);
-  // const proDetail = DATA.filter(x=>x.id == proid.id)
-  // const product = proDetail[0];
+ 
   console.log(product);
 
   useEffect(() => {

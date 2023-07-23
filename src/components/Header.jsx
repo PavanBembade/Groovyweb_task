@@ -48,7 +48,6 @@ const Header = () => {
               {" "}
               ALL IN ONE SHOP       
             </NavLink>
-            {/* <p className="font-weight-bold text-center">Welcome {userData.userName}</p>   */}
             <button
               className="btn btn-outline-primary ms-2"
               onClick={handleLogout}
